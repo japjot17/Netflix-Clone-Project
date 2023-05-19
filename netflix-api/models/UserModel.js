@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     max: 50,
   },
   likedMovies: Array,
+  //
 });
 
 module.exports = mongoose.model("users", userSchema);
